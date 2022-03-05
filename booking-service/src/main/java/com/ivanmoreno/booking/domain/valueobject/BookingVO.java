@@ -1,6 +1,7 @@
 package com.ivanmoreno.booking.domain.valueobject;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,7 +19,7 @@ public class BookingVO {
 	private String restaurantId;
 	private String userId;
 	private LocalDate date;
-	private LocalDate time;
+	private LocalTime time;
 	private String tableId;
 	
 	
